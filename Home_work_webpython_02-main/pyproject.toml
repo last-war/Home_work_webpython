@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "felix-homework2"
+version = "0.2.5"
+description = "CLI helper Felix"
+authors = ["Андрій <andrey.maybrodskyy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "felix_homework2"}]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+
+[tool.poetry.group.dev.dependencies]
+pathlib = "1.0.1"
+tabulate = "0.9.0"
+pyownet = "^0.10.0.post1"
+holidays = "0.17.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
